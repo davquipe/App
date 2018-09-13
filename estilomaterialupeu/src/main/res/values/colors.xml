@@ -61,12 +61,7 @@
     <color name="material_lime_a400">#C6FF00</color>
     <color name="material_lime_a700">#AEEA00</color>
 
-    <!--Color Yellow-->
-    <color name="material_cyan_400">#16FFFF</color>
-    <color name="material_cyan_500">#14D1E8</color>
-    <color name="material_cyan_600">#23D0FF</color>
-    <color name="material_cyan_700">#6AC0FF</color>
-    <color name="material_cyan_a700">#14A4E8</color>
+
 
     <color name="material_upeu_400">#A6324B</color>
     <color name="material_upeu_500">#992e45</color>
@@ -134,6 +129,13 @@
     <color name="material_purple_a400">#D500F9</color>
     <color name="material_purple_a700">#AA00FF</color>
 
+    <!--Color Pink-->
+    <color name="material_pink_400">#E51284</color>
+    <color name="material_pink_500">#BF0F6E</color>
+    <color name="material_pink_600">#FF1493</color>
+    <color name="material_pink_700">#7F0A49</color>
+    <color name="material_pink_a700">#400525</color>
+
     <!-- Selectors -->
     <color name="selector_normal">@android:color/transparent</color>
     <color name="selector_white_focused">#22FFFFFF</color>
@@ -150,9 +152,6 @@
     <color name="selector_upeu_focused">#591B28</color>
     <color name="selector_upeu_pressed">#591B28</color>
 
-    <color name="selector_cyan_focused">#5B88FF</color>
-    <color name="selector_cyan_pressed">#1C77E8</color>
-
     <color name="selector_green_focused">#2200C853</color>
     <color name="selector_green_pressed">#4400C853</color>
     <color name="selector_teal_focused">#2200BFA5</color>
@@ -161,4 +160,7 @@
     <color name="selector_blue_pressed">#442962FF</color>
     <color name="selector_purple_focused">#22AA00FF</color>
     <color name="selector_purple_pressed">#44AA00FF</color>
+
+    <color name="selector_pink_focused">#7F0A49</color>
+    <color name="selector_pink_pressed">#7F0A49</color>
 </resources>

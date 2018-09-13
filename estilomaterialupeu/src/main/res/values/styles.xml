@@ -119,20 +119,7 @@
         <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_upeu</item>
     </style>
 
-    <!-- Cyan App Theme -->
-    <style name="BaseTheme.Cyan" parent="AppTheme">
-        <!-- Attributes for all APIs -->
-        <item name="colorPrimary">@color/material_cyan_500</item>
-        <item name="colorPrimaryDark">@color/material_cyan_700</item>
-        <item name="colorAccent">@color/material_cyan_a700</item>
-        <item name="dialogTheme">@style/AppTheme.Dialog.Cyan</item>
-        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Cyan</item>
-    </style>
-    <style name="AppTheme.Cyan" parent="BaseTheme.Cyan">
-        <!-- API specific attributes 14+ -->
-        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_cyan</item>
-        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_cyan</item>
-    </style>
+
 
     <!-- Green App Theme -->
     <style name="BaseTheme.Green" parent="AppTheme">
@@ -170,6 +157,22 @@
         <!-- API specific attributes 14+ -->
         <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_teal</item>
         <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_teal</item>
+    </style>
+
+    <!-- Pink App Theme -->
+    <style name="BaseTheme.Pink" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_pink_500</item>
+        <item name="colorPrimaryDark">@color/material_pink_700</item>
+        <item name="colorAccent">@color/material_pink_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Pink</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Pink</item>
+    </style>
+
+    <style name="AppTheme.Pink" parent="BaseTheme.Pink">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_pink</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_pink</item>
     </style>
 
 
@@ -310,11 +313,11 @@
         <item name="colorAccent">@color/material_purple_a700</item>
     </style>
 
-    <!-- Cyan Dialog Theme -->
-    <style name="AppTheme.Dialog.Cyan">
-        <item name="colorPrimary">@color/material_cyan_500</item>
-        <item name="colorPrimaryDark">@color/material_cyan_700</item>
-        <item name="colorAccent">@color/material_cyan_a700</item>
+    <!-- Pink Dialog Theme -->
+    <style name="AppTheme.Dialog.Pink">
+        <item name="colorPrimary">@color/material_pink_500</item>
+        <item name="colorPrimaryDark">@color/material_pink_700</item>
+        <item name="colorAccent">@color/material_pink_a700</item>
     </style>
 
 
@@ -446,6 +449,8 @@
     <style name="ImageStyle.Colored">
         <item name="android:tint">?colorAccent</item>
     </style>
+
+    <style name="AppTheme.Dialog.Alert.Pink">Pink</style>
 
     <!-- Card Styles -->
     <!--
